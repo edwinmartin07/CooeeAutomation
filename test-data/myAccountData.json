@@ -1,0 +1,17 @@
+[
+  {
+	"url": "https://user.callcooee.net/login",
+	    "username": "kaif.beg+36@esmagico.in",
+	    "password": "Cooee@123"
+  },
+  {
+    "email": "newvalidemail@example.com",
+    "password": "NewValidPass@123"
+  },
+  {
+    "email": "invalidemail@@example..com"
+  },
+  {
+    "password": "short"
+  }
+]

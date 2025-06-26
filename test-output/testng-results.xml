@@ -1,177 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-18T12:12:21 IST" name="Cooee Web Automation Suite" finished-at="2025-06-18T12:18:37 IST" duration-ms="375075">
+  <suite started-at="2025-06-25T17:39:53 IST" name="Cooee Web Automation Suite" finished-at="2025-06-25T17:41:10 IST" duration-ms="76513">
     <groups>
     </groups>
-    <test started-at="2025-06-18T12:12:21 IST" name="Chrome Test" finished-at="2025-06-18T12:17:25 IST" duration-ms="303987">
+    <test started-at="2025-06-25T17:39:53 IST" name="Login Test" finished-at="2025-06-25T17:41:10 IST" duration-ms="76513">
       <class name="org.cooee.tests.LoginTest">
-        <test-method is-config="true" signature="loadData()[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:12:21 IST" name="loadData" finished-at="2025-06-18T12:12:29 IST" duration-ms="7359" status="PASS">
+        <test-method is-config="true" signature="loadData()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:39:53 IST" name="loadData" finished-at="2025-06-25T17:39:54 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadData -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:12:29 IST" name="setUp" finished-at="2025-06-18T12:14:15 IST" duration-ms="105680" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:39:54 IST" name="setUp" finished-at="2025-06-25T17:40:21 IST" duration-ms="27138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginButtonDisabledForInvalidEmailFormat()[pri:1, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:14:15 IST" name="testLoginButtonDisabledForInvalidEmailFormat" finished-at="2025-06-18T12:15:03 IST" duration-ms="48261" status="PASS">
+        <test-method signature="testLoginButtonDisabledForInvalidEmailFormat()[pri:1, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:40:21 IST" name="testLoginButtonDisabledForInvalidEmailFormat" finished-at="2025-06-25T17:40:31 IST" duration-ms="10670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginButtonDisabledForInvalidEmailFormat -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:15:03 IST" name="tearDown" finished-at="2025-06-18T12:15:10 IST" duration-ms="6968" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:40:31 IST" name="tearDown" finished-at="2025-06-25T17:40:32 IST" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:15:10 IST" name="setUp" finished-at="2025-06-18T12:15:13 IST" duration-ms="2654" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:40:32 IST" name="setUp" finished-at="2025-06-25T17:40:37 IST" duration-ms="5331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithValidCredentials()[pri:2, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:15:13 IST" name="testLoginWithValidCredentials" finished-at="2025-06-18T12:15:31 IST" duration-ms="18437" status="PASS">
+        <test-method signature="testLoginWithValidCredentials()[pri:2, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:40:37 IST" name="testLoginWithValidCredentials" finished-at="2025-06-25T17:40:51 IST" duration-ms="13100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:15:31 IST" name="tearDown" finished-at="2025-06-18T12:15:32 IST" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:40:51 IST" name="tearDown" finished-at="2025-06-25T17:40:51 IST" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:15:32 IST" name="setUp" finished-at="2025-06-18T12:15:41 IST" duration-ms="8894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:40:51 IST" name="setUp" finished-at="2025-06-25T17:40:56 IST" duration-ms="4650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithInvalidPassword()[pri:3, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:15:41 IST" name="testLoginWithInvalidPassword" finished-at="2025-06-18T12:16:21 IST" duration-ms="40310" status="PASS">
+        <test-method signature="testLoginWithInvalidPassword()[pri:3, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:40:56 IST" name="testLoginWithInvalidPassword" finished-at="2025-06-25T17:41:01 IST" duration-ms="5528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:16:21 IST" name="tearDown" finished-at="2025-06-18T12:16:21 IST" duration-ms="424" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:41:01 IST" name="tearDown" finished-at="2025-06-25T17:41:02 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:16:21 IST" name="setUp" finished-at="2025-06-18T12:16:23 IST" duration-ms="1365" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:41:02 IST" name="setUp" finished-at="2025-06-25T17:41:04 IST" duration-ms="2915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithIncorrectEmailAndValidPassword()[pri:4, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:16:23 IST" name="testLoginWithIncorrectEmailAndValidPassword" finished-at="2025-06-18T12:17:23 IST" duration-ms="60502" status="PASS">
+        <test-method signature="testLoginWithIncorrectEmailAndValidPassword()[pri:4, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:41:04 IST" name="testLoginWithIncorrectEmailAndValidPassword" finished-at="2025-06-25T17:41:09 IST" duration-ms="5008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithIncorrectEmailAndValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@22ff4249]" started-at="2025-06-18T12:17:23 IST" name="tearDown" finished-at="2025-06-18T12:17:25 IST" duration-ms="2295" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@229f66ed]" started-at="2025-06-25T17:41:09 IST" name="tearDown" finished-at="2025-06-25T17:41:10 IST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.cooee.tests.LoginTest -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2025-06-18T12:17:27 IST" name="Edge Test" finished-at="2025-06-18T12:18:37 IST" duration-ms="69080">
-      <class name="org.cooee.tests.LoginTest">
-        <test-method is-config="true" signature="loadData()[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:17:27 IST" name="loadData" finished-at="2025-06-18T12:17:27 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadData -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:17:27 IST" name="setUp" finished-at="2025-06-18T12:17:57 IST" duration-ms="29620" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginButtonDisabledForInvalidEmailFormat()[pri:1, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:17:57 IST" name="testLoginButtonDisabledForInvalidEmailFormat" finished-at="2025-06-18T12:18:03 IST" duration-ms="5701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginButtonDisabledForInvalidEmailFormat -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:03 IST" name="tearDown" finished-at="2025-06-18T12:18:04 IST" duration-ms="1420" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:04 IST" name="setUp" finished-at="2025-06-18T12:18:13 IST" duration-ms="8566" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithValidCredentials()[pri:2, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:13 IST" name="testLoginWithValidCredentials" finished-at="2025-06-18T12:18:17 IST" duration-ms="4509" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:17 IST" name="tearDown" finished-at="2025-06-18T12:18:19 IST" duration-ms="1314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:19 IST" name="setUp" finished-at="2025-06-18T12:18:20 IST" duration-ms="1410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithInvalidPassword()[pri:3, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:20 IST" name="testLoginWithInvalidPassword" finished-at="2025-06-18T12:18:25 IST" duration-ms="5172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:25 IST" name="tearDown" finished-at="2025-06-18T12:18:27 IST" duration-ms="1340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:27 IST" name="setUp" finished-at="2025-06-18T12:18:28 IST" duration-ms="1460" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithIncorrectEmailAndValidPassword()[pri:4, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:28 IST" name="testLoginWithIncorrectEmailAndValidPassword" finished-at="2025-06-18T12:18:35 IST" duration-ms="7124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithIncorrectEmailAndValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.cooee.tests.LoginTest@1c1bbc4e]" started-at="2025-06-18T12:18:35 IST" name="tearDown" finished-at="2025-06-18T12:18:37 IST" duration-ms="1414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- org.cooee.tests.LoginTest -->
-    </test> <!-- Edge Test -->
+    </test> <!-- Login Test -->
   </suite> <!-- Cooee Web Automation Suite -->
 </testng-results>

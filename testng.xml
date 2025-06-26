@@ -1,15 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Cooee Web Automation Suite" parallel="false">
 
-  <test name="Chrome Test">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="org.cooee.tests.LoginTest"/>
-    </classes>
-  </test>
+  <listeners>
+    <listener class-name="org.cooee.utils.ExtentReportListener"/>
+  </listeners>
 
-  <test name="Edge Test">
-    <parameter name="browser" value="edge"/>
+  <test name="Login Test">
     <classes>
       <class name="org.cooee.tests.LoginTest"/>
     </classes>

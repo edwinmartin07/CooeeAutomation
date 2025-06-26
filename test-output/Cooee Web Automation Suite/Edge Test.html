@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Edge Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 18 12:17:27 IST 2025</td>
+<td>Started on:</td><td>Tue Jun 24 01:06:41 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>69 seconds (69080 ms)</td>
+<tr><td>Total time:</td><td>440 seconds (440318 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,205 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.cooee.tests.AddPlans.tearDown()'><b>tearDown</b><br>Test class: org.cooee.tests.AddPlans</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to shutdown.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b339c88084296ff1f3f4b7c32b91ed97, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65067}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65067/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b339c88084296ff1f3f4b7c32b91ed97
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:309)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at org.cooee.base.BaseTest.tearDown(BaseTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for http://localhost:5341/shutdown to become unavailable after 6146 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilUnavailable(UrlChecker.java:148)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:300)
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at org.openqa.selenium.net.UrlChecker.waitUntilUnavailable(UrlChecker.java:141)
+	... 39 more
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2139431292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2139431292'><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to shutdown.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b339c88084296ff1f3f4b7c32b91ed97, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65067}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65067/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b339c88084296ff1f3f4b7c32b91ed97
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:309)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at org.cooee.base.BaseTest.tearDown(BaseTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for http://localhost:5341/shutdown to become unavailable after 6146 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilUnavailable(UrlChecker.java:148)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:300)
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at org.openqa.selenium.net.UrlChecker.waitUntilUnavailable(UrlChecker.java:141)
+	... 39 more
+</pre></div></td>
+<td>32</td>
+<td>org.cooee.tests.AddPlans@1c1bbc4e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.cooee.tests.AddPlans.handlePaymentFailureFlow()'><b>handlePaymentFailureFlow</b><br>Test class: org.cooee.tests.AddPlans</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b339c88084296ff1f3f4b7c32b91ed97, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.B4867CB53116630E7F0B3CCA9F5D43A0.d.59FD843332D80347B01672415A5B2648.e.69}], script=arguments[0].click();}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65067}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65067/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b339c88084296ff1f3f4b7c32b91ed97
+	at org.cooee.pages.PaymentPage.clickBackIcon(PaymentPage.java:38)
+	at org.cooee.tests.AddPlans.handlePaymentFailureFlow(AddPlans.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b339c88084296ff1f3f4b7c32b91ed97, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.B4867CB53116630E7F0B3CCA9F5D43A0.d.59FD843332D80347B01672415A5B2648.e.69}], script=arguments[0].click();}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65067}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65067/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b339c88084296ff1f3f4b7c32b91ed97
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463)
+	at org.cooee.pages.PaymentPage.clickBackIcon(PaymentPage.java:33)
+	... 27 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+	... 36 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace272220100", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace272220100'><pre>java.lang.RuntimeException: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b339c88084296ff1f3f4b7c32b91ed97, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.B4867CB53116630E7F0B3CCA9F5D43A0.d.59FD843332D80347B01672415A5B2648.e.69}], script=arguments[0].click();}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65067}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65067/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b339c88084296ff1f3f4b7c32b91ed97
+	at org.cooee.pages.PaymentPage.clickBackIcon(PaymentPage.java:38)
+	at org.cooee.tests.AddPlans.handlePaymentFailureFlow(AddPlans.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b339c88084296ff1f3f4b7c32b91ed97, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.B4867CB53116630E7F0B3CCA9F5D43A0.d.59FD843332D80347B01672415A5B2648.e.69}], script=arguments[0].click();}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65067}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65067/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b339c88084296ff1f3f4b7c32b91ed97
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463)
+	at org.cooee.pages.PaymentPage.clickBackIcon(PaymentPage.java:33)
+	... 27 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+	... 36 more
+</pre></div></td>
+<td>199</td>
+<td>org.cooee.tests.AddPlans@1c1bbc4e</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,25 +275,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.cooee.tests.LoginTest.testLoginWithInvalidPassword()'><b>testLoginWithInvalidPassword</b><br>Test class: org.cooee.tests.LoginTest</td>
+<td title='org.cooee.tests.AddPlans.loginAndCheckoutTwentySixDollarPlan()'><b>loginAndCheckoutTwentySixDollarPlan</b><br>Test class: org.cooee.tests.AddPlans</td>
 <td></td>
-<td>5</td>
-<td>org.cooee.tests.LoginTest@1c1bbc4e</td></tr>
+<td>10</td>
+<td>org.cooee.tests.AddPlans@1c1bbc4e</td></tr>
 <tr>
-<td title='org.cooee.tests.LoginTest.testLoginButtonDisabledForInvalidEmailFormat()'><b>testLoginButtonDisabledForInvalidEmailFormat</b><br>Test class: org.cooee.tests.LoginTest</td>
+<td title='org.cooee.tests.AddPlans.loginAndCheckoutSevenDollarPlan()'><b>loginAndCheckoutSevenDollarPlan</b><br>Test class: org.cooee.tests.AddPlans</td>
 <td></td>
-<td>5</td>
-<td>org.cooee.tests.LoginTest@1c1bbc4e</td></tr>
+<td>40</td>
+<td>org.cooee.tests.AddPlans@1c1bbc4e</td></tr>
 <tr>
-<td title='org.cooee.tests.LoginTest.testLoginWithIncorrectEmailAndValidPassword()'><b>testLoginWithIncorrectEmailAndValidPassword</b><br>Test class: org.cooee.tests.LoginTest</td>
+<td title='org.cooee.tests.AddPlans.loginAndCheckoutThirteenDollarPlan()'><b>loginAndCheckoutThirteenDollarPlan</b><br>Test class: org.cooee.tests.AddPlans</td>
 <td></td>
-<td>7</td>
-<td>org.cooee.tests.LoginTest@1c1bbc4e</td></tr>
-<tr>
-<td title='org.cooee.tests.LoginTest.testLoginWithValidCredentials()'><b>testLoginWithValidCredentials</b><br>Test class: org.cooee.tests.LoginTest</td>
-<td></td>
-<td>4</td>
-<td>org.cooee.tests.LoginTest@1c1bbc4e</td></tr>
+<td>28</td>
+<td>org.cooee.tests.AddPlans@1c1bbc4e</td></tr>
 </table><p>
 </body>
 </html>

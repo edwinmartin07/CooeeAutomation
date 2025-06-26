@@ -13,6 +13,8 @@ public class LoginPage {
     private final By passwordInput = By.name("password");
     private final By loginButton = By.xpath("//button[@type='submit']");
     private final By errorMessage = By.xpath("//*[contains(text(),'Wrong email or password')]"); // ✅ locator
+    private final By registerButton = By.xpath("//*[text()='Register']"); 
+
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -63,4 +65,10 @@ public class LoginPage {
             return null;
         }
     }
+    public void clickRegister() {
+        WebElement registerBtn = wait.until(ExpectedConditions.elementToBeClickable(registerButton));
+        registerBtn.click();
+        System.out.println("✅ Clicked on Register button/link.");
+    }
+
 }

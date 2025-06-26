@@ -2,26 +2,16 @@ package org.cooee.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.*;
-
-import java.time.Duration;
 
 public class BaseTest {
     protected WebDriver driver;
 
-    @Parameters("browser")
     @BeforeMethod(alwaysRun = true)
-    public void setUp(@Optional("chrome") String browser) {
-        if (browser.equalsIgnoreCase("chrome")) {
-            driver = new ChromeDriver();
-        } else if (browser.equalsIgnoreCase("edge") || browser.equalsIgnoreCase("microsoftedge")) {
-            driver = new EdgeDriver();
-        } else {
-            throw new RuntimeException("Unsupported browser: " + browser);
-        }
+    public void setUp() {
+        driver = new ChromeDriver(); // Force Chrome only
         driver.manage().window().maximize();
-        // Optional implicit wait
+        // Optional implicit wait if needed
         // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
